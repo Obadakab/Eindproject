@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+html {
+    background-color: #acceec;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #f4511e;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #b9ff99;
+    color: black;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#log {
+    float: right !important;
+}
+
+.header {
+    width: 30%;
+    margin: 40px auto 0px;
+    color: white;
+    background: #b9ff99;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.profile_info img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+#profimge {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.profile_info div {
+    display: inline-block;
+    margin: 5px;
+}
+
+.profile_info:after {
+    content: "";
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,150 @@
+.container{  
+    margin: 30px;
+    border-radius: 10px;
+    background-color: #ffa940;
+    padding: 20px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body * {
+  box-sizing: border-box;
+  }
+  
+  .tg  {
+    /* border-radius: 20px; */
+    border-radius:20px;
+    border-collapse:collapse;
+    border-color:#cccccc;
+    border-spacing:0;
+    /* outline-style: solid;
+    outline-width: 2px;
+    outline-color: #cccccc; */
+    padding:10px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width:60%;
+  }
+  .tg td{
+  font-family:Arial, sans-serif;
+  overflow:hidden;
+  }
+  .tg th{
+    background-color:#f0f0f0;
+    border-color:#cccccc;
+    border-style:solid;
+    font-size:11px;
+    color:#333;
+    font-family:Arial, sans-serif;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+  }
+  
+  .tg .tg-invoice-c-1r{
+    background-color:#ffffff;
+    border-color:#cccccc;
+    border-left:none;
+    border-right:none;
+    font-size:11px;
+    text-align:center;
+    vertical-align:middle;
+    border-width:2px;
+    color:#333;
+    padding:6px 3px;
+  }
+  .tg .tg-invoice-c-2r{
+    background-color:#FCFBE3;
+    border-color:#cccccc;
+    border-left:none;
+    border-right:none;
+    font-size:11px;
+    text-align:center;
+    vertical-align:middle;
+    border-width:2px;
+    color:#333;
+    padding:6px 3px;
+  }
+  .tg .tg-invoice-c-3r{
+  background-color:#FCFBE3;
+    border-color:#cccccc;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    font-size:11px;
+    text-align:center;
+    vertical-align:middle;
+    border-width:2px;
+    color:#333;
+    padding:6px 3px;
+  }
+  .tg .tg-invoice-info{
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  border-width:2px;
+  
+  }
+  .tg .tg-invoice-info-header{
+    background-color:#ffffff;
+    border:none;
+    text-align:left;
+    padding:0px 0px 2% 6%;
+  }
+  .tg .tg-klant-info{
+    background-color:#ffffff;
+    border:none;
+    text-align:left;
+    padding:0px 0px 2% 0%;
+  }
+  .tg .tg-logo-info{
+    background-color:#ffffff;
+    border:none;
+    text-align:left;
+    padding-left:8%;
+  }
+  .tg .tg-invoice-spece{
+  background-color:#ffffff;
+  border:none;
+  padding: 15px;
+  }
+  ul  {
+  list-style:none;
+  font-size:11px;
+  }
+  .btn-group
+  {
+    width:100%;
+    padding: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+  }
+  .btn-group button,input[type="submit"],input[type="button"] {
+    background-color: #f4511e; 
+    border: 1px solid #acceec; 
+    color:#dff0d8;
+    border-radius: 4px;
+    padding: 10px ; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    margin: 2px  4px  2px  4px;
+    text-align: center;
+    float: center; /* Float the buttons side by side */
+    }
+  
+    /* Clear floats (clearfix hack) */
+    .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+  
+    /* Add a background color on hover */
+    .btn-group button:hover,input[type="submit"]:hover {
+      background-color: #acceec;
+      color:black;
+    }
+  @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.container {overflow-x: auto;-webkit-overflow-scrolling: touch;}}
+  

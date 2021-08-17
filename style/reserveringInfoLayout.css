@@ -1,0 +1,186 @@
+.container{  
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #b9ff99;
+  padding: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+body * {
+box-sizing: border-box;
+}
+.sidenav {
+  padding: 8px 0;
+}
+.sidenav
+input {
+  width: 85%;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+form {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-group button,input[type="submit"],input[type="button"] {
+  background-color: #f4511e; 
+  border: 1px solid #acceec; 
+  color:#dff0d8;
+  border-radius: 4px;
+  padding: 10px ; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  margin: 2px  4px  2px  4px;
+  text-align: center;
+  float: center; /* Float the buttons side by side */
+  }
+
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+  /* Add a background color on hover */
+  .btn-group button:hover,input[type="submit"]:hover {
+    background-color: #acceec;
+    color:black;
+  }
+
+#verwijderBtn:hover,
+#wijzigBtn:hover {
+  background-color: red !important;
+  color: aliceblue !important;
+}
+
+
+table {
+  /* border-radius: 20px; */
+  border-radius:20px;
+  border-collapse:collapse;
+  border-color:#cccccc;
+  background-color: #acceec;
+  border-spacing:0;
+  /* outline-style: solid;
+  outline-width: 2px;
+  outline-color: #cccccc; */
+  padding:10px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width:80%;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+td{
+font-family:Arial, sans-serif;
+overflow:hidden;
+}
+ th{
+  background-color:#f0f0f0;
+  border-color:#cccccc;
+  border-style:solid;
+  font-size:11px;
+  color:#333;
+  font-family:Arial, sans-serif;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+
+.tg-invoice-c-1r{
+  background-color:#acceec;
+  border-color:#cccccc;
+  border-left:none;
+  border-right:none;
+  font-size:11px;
+  text-align:center;
+  vertical-align:middle;
+  border-width:2px;
+  color:#333;
+  padding:6px 3px;
+}
+.tg-invoice-c-2r{
+  background-color:#FCFBE3;
+  border-color:#cccccc;
+  border-left:none;
+  border-right:none;
+  font-size:11px;
+  text-align:center;
+  vertical-align:middle;
+  border-width:2px;
+  color:#333;
+  padding:6px 3px;
+}
+.tg-invoice-c-3r{
+background-color:#FCFBE3;
+  border-color:#cccccc;
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  font-size:11px;
+  text-align:center;
+  vertical-align:middle;
+  border-width:2px;
+  color:#333;
+  padding:6px 3px;
+}
+.tg-invoice-info{
+border-left:none;
+border-right:none;
+border-top:none;
+border-width:2px;
+
+}
+.tg-invoice-info-header{
+  background-color:#acceec;
+  border:none;
+  text-align:left;
+  padding:0px 0px 2% 6%;
+}
+.tg-klant-info{
+  background-color:#acceec;
+  border:none;
+  text-align:left;
+  padding:0px 0px 2% 0%;
+}
+.tg-logo-info{
+  background-color:#acceec;
+  border:none;
+  text-align:left;
+  padding-left:8%;
+}
+.tg-invoice-spece{
+background-color:#acceec;
+border:none;
+padding: 15px;
+}
+ul  {
+list-style:none;
+}

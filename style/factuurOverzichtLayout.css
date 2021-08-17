@@ -1,0 +1,144 @@
+.container {
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #b9ff99;
+  padding: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+body * {
+  box-sizing: border-box;
+}
+
+
+table {
+  overflow:auto;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+td{
+  border: 1px solid #f4511e;
+  text-align: center;
+  padding: 3px;
+}
+th{
+  border: 1px solid #f4511e;
+  text-align: left;
+  padding: 6px;
+  margin: 6px;
+}
+
+tr:hover {background-color:#ddd;
+  transition: background-color .4s;
+}
+tbody:nth-child(even) {
+  background-color: #acceec;
+}
+
+.btn-group button,input[type="submit"],input[type="button"] {
+  background-color: #f4511e; 
+  border: 1px solid #acceec; 
+  color:#dff0d8;
+  border-radius: 4px;
+  padding: 10px ; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  margin: 2px  4px  2px  4px;
+  text-align: center;
+  float: center; /* Float the buttons side by side */
+  }
+
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+  /* Add a background color on hover */
+  .btn-group button:hover,input[type="submit"]:hover {
+    background-color: #acceec;
+    color:black;
+  }
+  #verwijder:hover{
+    background-color: #b30000;
+  }
+.searchBar{
+  width: 95%;
+  display: inline-flex;
+  flex: 1 1 300px;
+  position: relative;
+  border: 5px solid #f4511e;
+  background: #f1f1f1;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0px 10px 0px;
+}
+.searchBar input[type="text"]:focus{
+  outline: none;
+}
+
+.searchBar input[type="text"] {
+  font-size: 15px;
+  border: none;
+  border-left: none;
+  width: 100%;
+  background: #f1f1f1;
+  
+}
+
+.searchBar #searchicon {
+  border-right: 10px;
+  font-size: 20px;
+  padding: 0.5rem;
+  cursor: pointer;
+  background: #f1f1f1;
+  border: none;
+}
+
+.searchBar  input[type="text"]:hover {
+  background: #f1f1f1;
+}
+.searchBar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.pagination {   
+  display: inline-block; 
+
+  text-align: center;  
+  margin: 20px; 
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+}   
+.pagination a {   
+  font-weight:bold;   
+  font-size:14px;   
+  color: black;   
+  padding: 10px; 
+  margin: 4px;  
+  text-align: center; 
+  text-decoration: none;   
+  border:1px solid black; 
+  border-radius: 10px;  
+  transition: background-color .4s;
+  
+}   
+.pagination a.active {   
+      background-color: pink;   
+}   
+.pagination a:hover:not(.active) {   
+  background-color: skyblue;   
+} 
+
+

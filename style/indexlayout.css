@@ -1,0 +1,540 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+#start_date,
+#end_date,
+#camptype {
+  height: 34px;
+  width: 25%;
+  padding: 6px 12px;
+  margin: 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #f4511e;
+  background-color: #fff;
+  border: 1px solid #b9ff99;
+  border-radius: 4px;
+}
+.jumbotron {
+  background: url("../images/camping_orig.jpg") no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 90vh;
+  color: rgb(179, 190, 180);
+  padding: 225px;
+  font-family: Montserrat, sans-serif;
+}
+#about,
+#portfolio,
+
+#contact {
+  background-color: #b9ff99;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.bg-grey,#myPage {
+  background-color: #acceec;
+}
+.logo-small {
+  color: #f4511e;
+  font-size: 50px;
+}
+.logo {
+  color: #f4511e;
+  font-size: 200px;
+}
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+  color: #f4511e;
+}
+.carousel-indicators li {
+  border-color: #f4511e;
+}
+.carousel-indicators li.active {
+  background-color: #f4511e;
+}
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+.item span {
+  font-style: normal;
+}
+.panel {
+  border: 1px solid #f4511e;
+  border-radius: 0 !important;
+  transition: box-shadow 0.5s;
+}
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+}
+.panel-footer .btn:hover {
+  border: 1px solid #f4511e;
+  background-color: #fff !important;
+  color: #f4511e;
+}
+.panel-heading {
+  color: #fff !important;
+  background-color: #f4511e !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.panel-footer {
+  background-color: white !important;
+}
+.panel-footer h3 {
+  font-size: 32px;
+}
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #f4511e;
+  color: #fff;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: #f4511e;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav li a#hovGreen:hover, .navbar-nav li.active a#hovGreen {
+  color: #f4511e !important;
+  background-color: #b9ff99 !important;
+}
+.navbar-nav li a#hovBlue:hover, .navbar-nav li.active a#hovBlue {
+  color: #f4511e !important;
+  background-color: #acceec !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.Pcard {
+  margin: 0 -5px;
+  
+}
+
+/* Clear floats after the columns */
+.Pcard:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 5px;
+  height: 225px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card:hover ,.thumbnail:hover{
+  background-color: #ddd;
+}
+
+#logo {
+  margin-top: -22px;
+}
+
+#glyphicontent,
+#glyphiconglobe {
+  padding-top: 20%;
+}
+footer .glyphicon {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #f4511e;
+}
+.wrapper {
+  position: absolute;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #f4511e;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+/* TABS */
+
+h2.inactive {
+  color: #cccccc;
+}
+
+h2.active {
+  color: #0d0d0d;
+  padding: 10px;
+  border-bottom: 2px solid #f4511e;
+}
+
+/* FORM TYPOGRAPHY*/
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+#login_btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(244, 81, 30, 0.4);
+  box-shadow: 0 10px 30px 0 rgba(244, 81, 30, 0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+#login_btn:hover {
+  background-color: #f6f6f6;
+  color: #f4511e;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+#login_btn:active {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+#password,
+#username {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #f4511e;
+}
+
+input[type="text"]:placeholder,
+input[type="password"]:placeholder {
+  color: #cccccc;
+}
+
+
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fadeIn.first {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* Simple CSS3 Fade-in Animation */
+.underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #f4511e;
+  content: "";
+  transition: width 0.2s;
+}
+
+.underlineHover:hover {
+  color: #0d0d0d;
+}
+
+.underlineHover:hover:after {
+  width: 100%;
+}
+
+/* OTHERS */
+
+*:focus {
+  outline: none;
+}
+
+#icon {
+  width: 20%;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.slideanim {
+  visibility: hidden;
+}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+}
